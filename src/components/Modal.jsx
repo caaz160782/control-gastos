@@ -49,9 +49,9 @@ const Modal = ({animarModal,
           setMensaje("");
         }, 2000);
         return;
-      }
-      setGastoEditar({});
+      }      
       guardarGasto({nombre,cantidad,categoria,id,fecha});
+      setGastoEditar({});
     }
 
   return (
